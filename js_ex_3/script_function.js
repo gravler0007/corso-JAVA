@@ -28,16 +28,13 @@ let persone = [persona1, persona2, persona3];
 /*inizio ciclo */
 
 function inputControl(username, password) {
+    let user;
 
     /* ciclo per vedere se l'username esiste */
     for (let i = 0; i < persone.length; i++) {
-        console.log("si");
         if (persone[i].username === username) {
-            console.log("si");
-            if (persone[i].password === password) {
-                console.log("SI");
-                console.log(persone[i]);
-                return persone[i]; 
+            if (persone[i].password === password) {            
+                return persone[i];
             } 
                           
         }     
@@ -62,8 +59,9 @@ while (true) {
         let password = prompt("2)Inserire password");
         password = Number(password);
 
-        console.log("hey");
-        utente_loggato=inputControl(username, password);
+        utente_loggato = inputControl(username, password);
+        
+        alert(`Ciao ${utente_loggato.username}, benvenuto nella tua area personale`);
 
         if (utente_loggato) {
 
