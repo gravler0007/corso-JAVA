@@ -28,7 +28,6 @@ let persone = [persona1, persona2, persona3];
 /*inizio ciclo */
 
 function inputControl(username, password) {
-    let user;
 
     /* ciclo per vedere se l'username esiste */
     for (let i = 0; i < persone.length; i++) {
