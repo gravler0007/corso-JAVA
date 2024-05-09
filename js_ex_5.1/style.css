@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+body {
+    text-align: center;
+}
+
+.reset {
+    margin-top: 25px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 2vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    padding-left: 5%;
+    list-style-type:none;
+}
+
+.prodotti { 
+    height: 45%;
+    text-align: left;
+    border: 2px solid green;
+    align-items: center;
+}
+
+.menu-sx{
+    line-height: 2;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 75%;
+    width: 35%;
+    border: 2px solid red;
+}
+
+.menu-dx {
+    line-height: 2;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 75%;
+    width: 35%;
+    border: 2px solid blue;
+}
+
+.codice-sconto{
+    padding: 2vh;
+    border: 2px solid blueviolet;
+}
+
+.common-box{
+    display: flex;
+    width: 70vw;
+    justify-content: space-evenly;
+}
+
+.div-button{
+    padding: 2vh;
+    border: 2px solid coral;
+}

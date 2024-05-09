@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <p id="utente"></p>
+    <h2>Seleziona i prodotti</h2>
+    
+
+    <div class="main-container">
+        <div class="prodotti common-box">
+        
+            <div class="menu-sx">
+                <ul class="listaSpesa">
+                    <li>
+                        <input type="checkbox" id="verdura" value="1">
+                        <label for="verdura"> verdura</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="pane" value="2"> Pane
+                    </li>
+                    <li>
+                        <input type="checkbox" id="latte" value="3"> Latte
+                    </li>
+                </ul>
+                
+                
+                
+            </div>
+        
+            <div class="menu-dx">
+                <ul class="listaSpesa">
+                    <li>
+                        <input type="checkbox" id="pasta" value="4"> Pasta
+                    </li>
+                    <li>
+                        <input type="checkbox" id="uova" value="5"> Uova
+                    </li>
+                    <li>
+                        <input type="checkbox" id="biscotti" value="6"> Biscotti
+                    </li>
+                </ul>                
+            </div>
+        
+        </div>
+        
+        
+        <div class="codice-sconto common-box">
+            <label for="codice-sconto">Inserisci il codice sconto:</label><br>
+            <input type="text" id="codice-sconto"><br><br>
+        </div>
+
+        <div class="div-button common-box">
+            <button id="checkout">Checkout</button>
+            <button id="reset">Reset</button>
+        </div>
+        
+        
+
+    </div>
+
+    <p id="messaggio"></p><br>
+    <p id="prezzoTotale"></p><br>
+    <p id="codiceSconto"></p><br>
+    <p id="prezzoFinale"></p><br>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
+    
